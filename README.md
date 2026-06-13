@@ -31,6 +31,24 @@ In diesem Projekt wurden folgende Methoden angewendet:
 * Evaluation mit MAE, RMSE und R²
 * Analyse von Feature Importance und Vorhersagefehlern
 
+## Visualisierungen
+
+### Durchschnittlicher Veloverkehr nach Tageszeit
+
+![Durchschnittlicher Veloverkehr nach Tageszeit](visuals/hourly_bike_traffic.png)
+
+### Veloverkehr nach Wochentag und Stunde
+
+![Heatmap Veloverkehr nach Wochentag und Stunde](visuals/heatmap_weekday_hour.png)
+
+### Modellvergleich
+
+![Modellvergleich nach MAE](visuals/model_comparison_mae.png)
+
+### In-Sample vs. Out-of-Sample Evaluation
+
+![In-Sample vs. Out-of-Sample Fehler](visuals/in_out_sample_error.png)
+
 ## Resultate
 
 Im Modellvergleich erzielte der Decision Tree Regressor die beste Leistung. Das finale Modell wurde mit Cross-Validation optimiert und anschliessend auf Trainings- und Testdaten evaluiert.
